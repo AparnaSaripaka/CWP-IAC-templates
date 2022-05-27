@@ -11,7 +11,7 @@ variable "cidr_blocks"{
 }
 
 variable "gcp_name" {
- default = "test"
+ default = "test123"
 }
 
 variable "machine_type" {
