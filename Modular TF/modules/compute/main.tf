@@ -8,7 +8,7 @@ resource "aws_instance" "ebs_optimized" {
   }
 }
 
-resource "aws_instance" "monitoring" {
+resource "aws_instance" "monitoring123" {
   ami           = var.ami_id
   instance_type = var.type
   ingress_cidr_blocks = var.cidr_blocks
