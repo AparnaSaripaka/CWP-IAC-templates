@@ -2,7 +2,7 @@ resource "aws_s3_bucket" "logging123" {
   bucket = "examplebuckettftest"
 }
 
-resource "aws_s3_bucket" "mfadelete" {
+resource "aws_s3_bucket" "mfadelete123" {
   bucket = "examplebuckettftest"
   acl    = var.private
   versioning {
