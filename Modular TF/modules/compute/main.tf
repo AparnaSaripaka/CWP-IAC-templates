@@ -17,7 +17,7 @@ resource "aws_instance" "monitoring123" {
     Name = "ExampleAppServerInstance"
   }
 }
-resource "google_compute_instance" "confidential" {
+resource "google_compute_instance" "confidential123" {
   name         = var.gcp_name
   machine_type = var.machine_type
   zone         = var.zone
