@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "logging" {
+resource "aws_s3_bucket" "logging123" {
   bucket = "examplebuckettftest"
 }
 
